@@ -1,0 +1,70 @@
+body {
+  background-color: $blue;
+  font-family: $mo;
+  p {
+    font-size: 15px;
+    color: $gray-200;
+    padding: 0 10px;
+  }
+  h3 {
+    font-size: 45px;
+    color: $blue;
+  }
+  h1 {
+    font-size: 65px;
+    color: rgba(171, 181, 196, 0.15);
+  }
+  h5 {
+    color: #2c2c34;
+  }
+  h4 {
+    font-size: 24px;
+    color: $blue;
+    padding-left: 10px;
+  }
+  .tab {
+    background-color: $white;
+    box-shadow: 0 7px 21.2px 1.8px rgba(173, 174, 174, 0.52);
+    padding-top: 50px;
+  }
+  .bt1 {
+    border-radius: 0%;
+    border: $red solid 1.5px;
+    background-color: $white;
+    color: $red;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  @media (min-width: 300px) and (max-width: 767.98px){
+    h5{
+      font-size: 22px;
+    }
+    h4{
+      font-size: 34px;
+    }
+    p{
+      font-size: 22px;
+    }
+  }
+  .row{
+    margin: 0;
+  }
+  .bd-bt{
+    border-bottom: $gray-200 solid 1px;
+  }
+  .bd-r{
+    border-right: $gray-200 solid 1px;
+  }
+  @media (min-width: 300px) and (max-width: 767.98px){
+    .bd-bt, .bd-r{
+      border: none;
+    }
+    .bd-mbt{
+      border-bottom: $gray-200 solid 1px;
+    }
+    .bd-mr{
+      border-right: $gray-200 solid 1px;
+    }
+  }
+}
+

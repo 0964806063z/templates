@@ -1,0 +1,51 @@
+.tab-content {
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 7px 21.2px 1.8px rgba(173, 174, 174, 0.52);
+  a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.33;
+    text-align: left;
+    color: #8f97a3;
+  }
+  .col-md-4 {
+    padding: 50px;
+  }
+}
+.C-bottom {
+  padding-top: 30px;
+  .slide {
+    position: relative;
+    img {
+      height: 450px;
+    }
+    .slide-icon {
+      text-align: center;
+      background-color: #eef0f1;
+      padding: 3px;
+    }
+    .localIcon {
+      position: absolute;
+      bottom: 30px;
+      right: 10px;
+    }
+    @media (min-width: 30px) and (max-width: 767.98px){
+      img{
+        height: 280px;
+      }
+    }
+  }
+  .txt {
+    margin: 0 40px 0 40px;
+  }
+}
+#C-bt{
+  @media (min-width: 300px) and (max-width: 767.98px){
+    .container{
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

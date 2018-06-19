@@ -1,0 +1,19 @@
+.note{
+  height: 256px;
+  background-color: #b2ce54;
+  .ba{
+    padding: 32px 0 0 45px;
+    a{
+      display: block;
+      text-decoration: none;
+      font-size: 17.5px;
+      padding-bottom: 10px;
+      letter-spacing: 0.5px;
+      text-align: left;
+      color: #fff;
+      &:hover{
+        border-bottom: #fff solid 1.5px;
+      }
+    }
+  }
+}

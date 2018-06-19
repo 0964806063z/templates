@@ -1,0 +1,12 @@
+---
+author: Frontend Team
+ourTeam: My Team
+---
+{% extends 'layouts/application.html' %}{% block bodyClass %}class="page-home"{% endblock %}{% block content %}
+
+	{% include "modules/H-top.html" %}
+  {% include "modules/H-center.html" %}
+	{% include "modules/H-bottom.html" %}
+  {% include "modules/on-footer.html" %}
+{% include "modules/component/loading.html" %}
+{% endblock %}

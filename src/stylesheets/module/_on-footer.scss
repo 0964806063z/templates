@@ -1,0 +1,35 @@
+.on-footer{
+  margin-bottom: -7%;
+  .col-md-10{
+    text-align: center;
+    background-size: cover;
+    height: 350px;
+    background-color: #b2ce54;
+  }
+  .txt{
+    margin-top: 10%;
+    h4{
+      color: $white;
+    }
+    .button1{
+      border-radius: 0%;
+      width: 268px;
+      height: 57px;
+      background-color: #86c1e8;
+      color: $white;
+      &:hover{
+        box-shadow: -6px 8px 48.8px 17.2px rgba(58, 58, 58, 0.21);
+      }
+    }
+    .button2{
+      border-radius: 0%;
+      width: 268px;
+      height: 57px;
+      background-color: $white;
+      color: #86c1e8;
+      &:hover{
+        box-shadow: -6px 8px 48.8px 17.2px rgba(58, 58, 58, 0.21);
+      }
+    }
+  }
+}

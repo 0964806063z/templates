@@ -1,0 +1,23 @@
+#h-bottom{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  img{
+    max-width: 430px;
+    max-height: 400px;
+  }
+  .txt-hbt{
+    padding: 0 10px 0 150px;
+  }
+  @media (min-width: 300px) and (max-width: 767.98px){
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    .txt-hbt{
+      padding: 10px;
+    }
+  }
+}
+

@@ -1,0 +1,28 @@
+
+.logoI{
+  text-align: center;
+  margin: 20px;
+}
+.textI{
+  background-color: #fff;
+  box-shadow: 2.1px 2.1px 42px 0 rgba(173, 174, 174, 0.16);
+  padding: 100px;
+  margin: 30px 0 100px 0;
+  p,h3{
+    text-align: left;
+  }
+  h4{
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 767.98px)
+{
+  .logoI{
+    img{
+      margin-bottom: 50px;
+    }
+  }
+  .textI{
+    padding: 20px;
+  }
+}

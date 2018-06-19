@@ -1,0 +1,34 @@
+#banner {
+  height: 480px;
+  background-image: url("../images/bannerx0x0x2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  h3{
+    color: $green;
+  }
+  .backgroud {
+    height: 100%;
+    background: linear-gradient(to right, $blue, $blue, Transparent);
+  }
+  .txt-banner {
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-left: #b2ce54 solid 10px;
+    .text-banner {
+      margin: 10%;
+    }
+    @media (min-width: 300px) and (max-width: 767.98px){
+      max-width: 100%;
+      top: 50%;
+      left: 10%;
+      transform: translate(0%, -50%);
+      h3{
+        font-size: 25px;
+      }
+    }
+  }
+}

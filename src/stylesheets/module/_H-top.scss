@@ -1,0 +1,43 @@
+.flip {
+  background-color: none;
+  color: $gray-200;
+  border: none;
+  text-align: left;
+  font-size: 17.5px;
+  transition: 0.4s;
+  padding: 10px;
+  font-weight: bold;
+  &:after {
+    content: "\002B";
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+  }
+  &:active{
+    color: #73c2eb;
+  }
+}
+.active:after {
+  content: "\2212";
+  color: #73c2eb;
+}
+.panel {
+  padding: 0 18px 0 40px;
+  background-color: $white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  a {
+    display: block;
+    text-decoration: none;
+    font-size: 17.5px;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    font-weight: bold;
+    color: $gray-200;
+    &:hover {
+      color: #73c2eb;
+    }
+  }
+}

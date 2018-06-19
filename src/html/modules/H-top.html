@@ -1,0 +1,77 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10713.847507685638!2d109.17330418706486!3d12.254266068539502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8ae4ec4c116c585!2sBuildings+VCN!5e0!3m2!1sen!2s!4v1529029309999" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <h1>LOCATIONS</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <label class="flip">Toronto</label>
+          <div class="panel">
+          </div>
+          <label class="flip">Ottawa</label>
+          <div class="panel">
+          </div>
+          <label class="flip">Montreal</label>
+          <div class="panel">
+            <a href="#">MTL 1</a>
+            <a href="#">MTL 2</a>
+          </div>
+          <label class="flip">Toronto</label>
+          <div class="panel">
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h4>
+      		We’ll always have the capacity you need-how you need it
+      	</h4>
+          <p>Greater Montreal Area >25,00 sqft</p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="icon"><i class="fas fa-check-circle"></i></div>
+              <div>
+                <h5>99.99% Uptime</h5>
+                <p>on our own BGP Network of tier 1 backbone providers</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="icon"><i class="fas fa-check-circle"></i></div>
+              <h5>25,000 SQFT of Space</h5>
+              <p>downtown montreal locations</p>
+            </div>
+            <div class="col-md-6">
+              <div class="icon"><i class="fas fa-check-circle"></i></div>
+              <h5>Compliant</h5>
+              <p>SOC2, Type2, HIPPA and PCI-DSS compliant</p>
+            </div>
+            <div class="col-md-6">
+              <div class="icon"><i class="fas fa-check-circle"></i></div>
+              <h5>Green Grid Hydro Power</h5>
+              <p>Operated on Hydro Quebec power with total capacity of 5.5 MW</p>
+            </div>
+            <button type="submit" class="btn bt1">Download Spec Sheet</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+var acc = document.getElementsByClassName("flip");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
