@@ -35,16 +35,22 @@ body {
     margin-bottom: 10px;
     margin-left: 30px;
   }
-  @media (min-width: 300px) and (max-width: 767.98px){
-    h5{
-      font-size: 22px;
-    }
-    h4{
-      font-size: 34px;
-    }
-    p{
-      font-size: 22px;
-    }
+  .bt2 {
+    margin-top: 20px;
+    border-radius: 0%;
+    background-color: $red;
+    border: solid 1.5px $red;
+  }
+  @media (min-width: 300px) and (max-width: 768.98px){
+    // h5{
+    //   font-size: 22px;
+    // }
+    // h4{
+    //   font-size: 34px;
+    // }
+    // p{
+    //   font-size: 22px;
+    // }
   }
   .row{
     margin: 0;
@@ -55,7 +61,8 @@ body {
   .bd-r{
     border-right: $gray-200 solid 1px;
   }
-  @media (min-width: 300px) and (max-width: 767.98px){
+
+  @media (min-width: 576px) and (max-width: 992px){
     .bd-bt, .bd-r{
       border: none;
     }

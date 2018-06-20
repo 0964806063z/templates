@@ -1,60 +1,53 @@
-<!-- <div class="row">
-  <div class="col-md-6">
-    <div class="offset-md-4 col-md-7 w">
-      {% include "modules/note.html" %}
-    </div>
-     <div class="col-md-6 ">
-    <img class="q" src="../images/asd.jpeg" alt="">
-  </div>
-    <h1>LEADERSHIP</h1>
-  </div>
-</div> -->
+
 <div class="row">
-  <div class="col-md-3 offset-md-8">
+  <div class="col-lg-3 offset-lg-8">
     {% include "modules/note.html" %}
   </div>
-  <div class="col-md-6">
+  <div class="col-lg-6">
     <img class="q" src="../images/asd.jpeg" alt="">
   </div>
-  <div class="col md-6">
+  <div class="col-lg-6">
     <h1 class="w">LEADERSHIP</h1>
   </div>
 </div>
 <div class="container">
   <div class="row" id="Lct">
-    <div class="col-md-4 col-sm-6 bd-r bd-bt bd-mr bd-mbt">
-      <img class="images" src="../images/1.jpg" alt="">
-      <h4>Todd Coleman</h4>
-      <p>President and CEO</p>
+    {% for i in center %}
+    <div class="col-lg-4 col-md-6 col-sm-6 bd-r bd-bt bd-mr bd-mbt">
+      <img class="images" src="{{i.img}}" alt="">
+      <h4>{{i.name}}</h4>
+      <p>{{i.job}}</p>
       <a href="#">VIEW BIO <i class="fas fa-arrow-right"></i></a>
     </div>
-    <div class="col-md-4 col-sm-6 bd-r bd-bt bd-mbt">
+    {% endfor %}
+
+    {# <div class="col-lg-4 col-md-6 col-sm-6 bd-r bd-bt bd-mbt">
       <img class="images" src="../images/1.jpg" alt="">
       <h4>Marc Belanger</h4>
        <p>Cheif Financial Officer
         </p>
         <a href="#">VIEW BIO <i class="fas fa-arrow-right"></i></a>
     </div>
-    <div class="col-md-4 col-sm-6 bd-bt bd-mr bd-mbt">
+    <div class="col-lg-4 col-md-6 col-sm-6 bd-bt bd-mr bd-mbt">
       <img class="images" src="../images/1.jpg" alt="">
       <h4>John Savageu</h4>
       <P>Vice President, Operations and Engieneering
       </P>
       <a href="#">VIEW BIO <i class="fas fa-arrow-right"></i></a>
     </div>
-    <div class="col-md-4 col-sm-6 bd-r bd-mbt">
+    <div class="col-lg-4 col-md-6 col-sm-6 bd-r bd-mbt">
       <img class="images" src="../images/1.jpg" alt="">
       <h4>Billy Krassakopoulos</h4>
       <P>Vice President, Montreal Market
       </P>
       <a href="#">VIEW BIO <i class="fas fa-arrow-right"></i></a>
     </div>
-    <div class="col-md-4 col-sm-6 bd-r bd-mr">
+    <div class="col-lg-4 col-md-6 col-sm-6 bd-r bd-mr">
       <img class="images" src="../images/1.jpg" alt="">
       <a href="#"><h4>Strahan McCarten</h4></a>
       <P>Senior Vice President, Product & Strategy
       </P>
       <a href="#">VIEW BIO <i class="fas fa-arrow-right"></i></a>
-    </div>
+    </div> #}
   </div>
 </div>

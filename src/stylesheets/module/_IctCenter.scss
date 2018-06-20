@@ -7,14 +7,14 @@
   }
   .txtI {
     text-align: left;
-    @media (min-width: 320px) and (max-width: 767.98px){
+    @media (min-width: 320px) and (max-width: 768.1px){
       text-align: center;
     }
   }
   .fas {
     color: #b2ce54;
   }
-  @media (min-width: 300px) and (max-width: 767.98px){
+  @media (min-width: 300px) and (max-width: 768.1px){
     .col-12{
       border: none;
       border-bottom: 1px solid $gray-200;
@@ -25,7 +25,7 @@
   position: absolute;
   z-index: 1;
   width: 100%;
-  @media (min-width: 300px) and (max-width: 767.98px){
+  @media (min-width: 300px) and (max-width: 768.1px){
     position: relative;
     margin-bottom: -95px;
   }

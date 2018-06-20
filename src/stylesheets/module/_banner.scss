@@ -21,13 +21,13 @@
     .text-banner {
       margin: 10%;
     }
-    @media (min-width: 300px) and (max-width: 767.98px){
+    @media (min-width: 300px) and (max-width: 992px){
       max-width: 100%;
       top: 50%;
       left: 10%;
       transform: translate(0%, -50%);
       h3{
-        font-size: 25px;
+        font-size: 30px;
       }
     }
   }

@@ -1,7 +1,7 @@
 #contactForm {
   background-color: #b2ce54;
   padding: 20px;
-  margin-top: -30%;
+  margin-top: -150px;
   input {
     color: #fff;
     border-radius: 0%;
@@ -13,16 +13,11 @@
     text-align: left;
     color: #fefdfd;
   }
-  .bt2 {
-    margin-top: 20px;
-    border-radius: 0%;
-    background-color: $red;
-    border: solid 1.5px $red;
-  }
-  @media (min-width: 300px) and (max-width: 767.98px){
+  @media (min-width: 300px) and (max-width: 992px){
     margin: 0;
+    padding:0;
     form{
-      padding: 30px;
+      padding: 10px;
     }
   }
 }
@@ -36,7 +31,7 @@
 }
 .txt-ft{
   margin-top: -30%;
-  @media (min-width: 360px) and (max-width: 767.98px)
+  @media (min-width: 320px) and (max-width: 992px)
   {
     margin: 0;
     padding-top: 30px;
@@ -44,7 +39,7 @@
   }
 }
 #from-t{
-  @media (min-width: 360px) and (max-width: 767.98px){
+  @media (min-width: 320px) and (max-width: 992px){
     .container{
       padding-right: 0;
       padding-left: 0;
