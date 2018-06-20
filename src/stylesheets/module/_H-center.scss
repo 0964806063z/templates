@@ -16,6 +16,7 @@
     }
   }
   .icon-h{
+    color: $green;
     padding: 80px;
     &:hover{
       background: $sky;
@@ -26,6 +27,9 @@
   }
   @media (min-width: 320px) and (max-width: 991px)
   {
+    .icon-h{
+      padding: 40px;
+    }
     .col-lg-7{
       .row{
         margin-right: 0;
