@@ -2,34 +2,40 @@
   background-color: $blue;
   padding-top: 10%;
   h5{
-    color: #fff;
+    color: $white;
     margin-bottom: 25px;
-  }
-  p{
-    color: #abb5c4;
-    margin-bottom: 3px;
   }
   a{
     display: inline-block;
-    color: #abb5c4;
+    color: $gray-200;
     &:hover{
       color: #333;
     }
   }
-  .border-footer{
-    border-top: 1px solid #abb5c4;
-  }
-  .rights{
-    text-align: right;
-  }
   .bottom-footer{
     font-size: 13px;
-    color: #abb5c4;
+    color: $gray-200;
   }
   .col-lg-6{
     margin-top: -20px;
   }
-  @media (min-width: 300px) and (max-width: 992px){
+  .col-lg-5{
+    text-align: right;
+  }
+  @media (max-width: 576px) {
+    text-align: center;
+    .col-lg-5{
+      text-align: center;
+      font-size: 17px;
+      line-height: 30px;
+    }
+    .col-lg-6{
+      font-size: 17px;
+      margin: 20px;
+      text-align: center;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 992px){
     .col-lg-6{
       font-size: 17px;
       margin: 20px;
