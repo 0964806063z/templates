@@ -16,23 +16,14 @@
       width: 125px;
       border-bottom: 2px solid $white;
     }
-    .the-group{
-      position: relative;
-      .view{
-        margin: 0;
-        padding: 0;
-      }
-    }
     .the {
+      position: relative;
       display: inline-flex;
       width: 250px;
       height: 200px;
       background: $white;
       margin: 20px 35px 0 10px;
-    }
-    .the-body{
-      margin: 30px 20px 15px 20px;
-      padding-left: 20px;
+      padding: 30px 20px 15px 20px;
     }
     .the-title{
       color: $black;

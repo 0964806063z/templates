@@ -41,16 +41,11 @@ body {
     background-color: $red;
     border: solid 1.5px $red;
   }
-  @media (min-width: 300px) and (max-width: 768.98px){
-    // h5{
-    //   font-size: 22px;
-    // }
-    // h4{
-    //   font-size: 34px;
-    // }
-    // p{
-    //   font-size: 22px;
-    // }
+  @media (max-width: 370px){
+    h1 {
+      font-size: 50px;
+      color: rgba(171, 181, 196, 0.15);
+    }
   }
   .row{
     margin: 0;
@@ -73,6 +68,12 @@ body {
     }
     .bd-mr{
       border-right: $gray-200 solid 1px;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 992px)  {
+    .col-lg-4{
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
