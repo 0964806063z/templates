@@ -22,6 +22,9 @@
     position: relative;
 
   }
+  .carousel-item{
+    transition: transform 2s ease;
+  }
   .txt-banner {
     max-width: 50%;
     position: absolute;
