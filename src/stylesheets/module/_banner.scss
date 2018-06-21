@@ -6,6 +6,9 @@
   position: relative;
   h3{
     color: $green;
+    span{
+      color: $white;
+    }
   }
   .backgroud {
     height: 100%;
@@ -16,7 +19,7 @@
     position: absolute;
     top: 50%;
     left: 30%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -43%);
     border-left: #b2ce54 solid 10px;
     .text-banner {
       margin: 10%;

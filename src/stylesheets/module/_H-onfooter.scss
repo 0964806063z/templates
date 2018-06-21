@@ -1,9 +1,13 @@
 #h-on {
-  .col-md-10 {
+  .col-lg-10 {
     position: relative;
     background: $green;
+    a{
+      color: $red;
+    }
+
     .h-txt {
-      padding: 50px 10px 0 100px;
+      padding: 50px 10px 0 50px;
       text-align: left;
     }
     h5 {
@@ -13,14 +17,18 @@
       border-bottom: 2px solid $white;
     }
     .the-group{
-      position: absolute;
+      position: relative;
+      .view{
+        margin: 0;
+        padding: 0;
+      }
     }
     .the {
       display: inline-flex;
       width: 250px;
       height: 200px;
       background: $white;
-      margin: 30px 35px 0 10px;
+      margin: 20px 35px 0 10px;
     }
     .the-body{
       margin: 30px 20px 15px 20px;
