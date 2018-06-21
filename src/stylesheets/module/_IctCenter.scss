@@ -1,19 +1,7 @@
-#IctCenter {
-  .tab {
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    margin-top: 100px;
-    margin-bottom: 30px;
-  }
-  .txtI {
-    text-align: left;
-    @media (min-width: 320px) and (max-width: 768.1px){
-      text-align: center;
-    }
-  }
-  .fas {
-    color: #b2ce54;
+#IctCenter{
+  i{
+    color: $green;
+    padding-top: 15px;
   }
   @media (min-width: 300px) and (max-width: 768.1px){
     .col-12{
@@ -21,10 +9,22 @@
       border-bottom: 1px solid $gray-200;
     }
   }
-  i{
-    padding-top: 15px;
+}
+
+.tab {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.txtI {
+  text-align: left;
+  @media (min-width: 320px) and (max-width: 768.1px){
+    text-align: center;
   }
 }
+
 .imgL {
   position: absolute;
   z-index: 1;

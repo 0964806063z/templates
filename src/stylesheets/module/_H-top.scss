@@ -4,7 +4,7 @@
   border: none;
   text-align: left;
   font-size: 17.5px;
-  transition: 0.4s;
+  transition: .4s;
   padding: 10px;
   font-weight: bold;
   &:after {
@@ -26,13 +26,13 @@
   background-color: $white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height .2s ease-out;
   a {
     display: block;
     text-decoration: none;
     font-size: 17.5px;
     padding-bottom: 10px;
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
     text-align: left;
     font-weight: bold;
     color: $gray-200;

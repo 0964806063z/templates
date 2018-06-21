@@ -1,4 +1,4 @@
-#banner {
+.banner {
   height: 480px;
   position: relative;
   h3{
@@ -7,7 +7,7 @@
       color: $white;
     }
   }
-  #slide-h{
+  .slide-h{
     position: absolute;
     img{
       height: 480px;

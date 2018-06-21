@@ -1,11 +1,10 @@
-
 .logoI{
   text-align: center;
   margin: 20px;
 }
 .textI{
-  background-color: #fff;
-  box-shadow: 2.1px 2.1px 42px 0 rgba(173, 174, 174, 0.16);
+  background-color: $white;
+  box-shadow: 2.1px 2.1px 42px 0 rgba(173, 174, 174, .16);
   padding: 100px;
   margin: 30px 0 100px 0;
   p,h3{
