@@ -55,13 +55,15 @@ body {
   .row{
     margin: 0;
   }
-  .bd-bt{
-    border-bottom: $gray-200 solid 1px;
-  }
-  .bd-r{
-    border-right: $gray-200 solid 1px;
-  }
 
+  @media (min-width: 993px){
+    .bd-bt{
+      border-bottom: $gray-200 solid 1px;
+    }
+    .bd-r{
+      border-right: $gray-200 solid 1px;
+    }
+  }
   @media (min-width: 576px) and (max-width: 992px){
     .bd-bt, .bd-r{
       border: none;

@@ -1,6 +1,5 @@
 #banner {
   height: 480px;
-  background-image: url("../images/bannerx0x0x2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -10,9 +9,18 @@
       color: $white;
     }
   }
+  #slide-h{
+    position: absolute;
+    img{
+      height: 480px;
+      width: 100%;
+    }
+  }
   .backgroud {
     height: 100%;
     background: linear-gradient(to right, $blue, $blue, Transparent);
+    position: relative;
+
   }
   .txt-banner {
     max-width: 50%;
