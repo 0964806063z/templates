@@ -41,6 +41,7 @@ body {
     background-color: $red;
     border: solid 1.5px $red;
   }
+
   @media (max-width: 370px){
     h1 {
       font-size: 50px;
@@ -71,7 +72,7 @@ body {
     }
   }
   @media (min-width: 300px) and (max-width: 992px)  {
-    .col-lg-4{
+    .col-lg-4,.container-fluid{
       padding-left: 0;
       padding-right: 0;
     }
