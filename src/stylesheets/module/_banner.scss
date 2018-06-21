@@ -1,7 +1,5 @@
 #banner {
   height: 480px;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   h3{
     color: $green;
@@ -39,7 +37,7 @@
       max-width: 100%;
       top: 50%;
       left: 10%;
-      transform: translate(0%, -50%);
+      transform: translate(0%, -40%);
       h3{
         font-size: 30px;
       }
